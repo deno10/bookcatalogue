@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}CRUD System{% endblock %}
+
+{% block body %}
+    <h1>CRUD System</h1>
+    <p><a href="{{ path('app_author_index') }}">Authors</a></p>
+    <p><a href="{{ path('app_book_index') }}">Books</a></p>
+{% endblock %}
